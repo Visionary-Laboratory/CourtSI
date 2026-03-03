@@ -1,0 +1,16 @@
+{
+    "distance_measurement_camera_object": 60.18050541516248,
+    "distance_measurement_height": 94.1921397379913,
+    "distance_measurement_object_line": 47.60252365930601,
+    "distance_measurement_object_object": 68.35595776772251,
+    "spatial_counting_ball": 92.85714285714286,
+    "spatial_counting_player": 100.0,
+    "localization": 7.880434782608696,
+    "relational_reasoning_ball_zone": 65.09803921568627,
+    "relational_reasoning_ball_player": 63.63636363636363,
+    "relational_reasoning_camera_player": 78.2258064516129,
+    "relational_reasoning_player_zone": 85.36585365853658,
+    "relational_reasoning_player_player": 56.74300254452926,
+    "relational_reasoning_player_line": 68.48484848484848,
+    "overall": 61.218122626153026
+}
