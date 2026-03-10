@@ -1,0 +1,8 @@
+[
+    {
+        "image_path": "static/images/compare2/ori_image.png",
+        "question": "DEMO. The court closer to the camera is the 'near court', and the opposite one is the 'far court'. All references to 'left' or 'right' in the questions describing the court or relative positions are based on the camera's perspective, corresponding to the left and right sides of the image frame. However, references to specific body parts (e.g., 'left wrist', 'right knee') follow the player's anatomical perspective (the player's own left/right). Players are identified by bounding boxes labeled with serial numbers. Measuring from the pelvis of each player, which player has the smallest Euclidean distance to Player 4?\nChoices:\n(A)Player 1\n(B)Player 2\n(C)Player 3\nSelect the best option. Output only the single uppercase letter corresponding to the choice. Example: B",
+        "answer": "(1.0, 2.0, 3.0)",
+        "category": "relational_reasoning_player_player"
+    }
+]

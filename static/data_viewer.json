@@ -1,0 +1,230 @@
+[
+    {
+        "image_path": "static/images/views/badminton_match10_frame_000_0145.jpg",
+        "question": "This is a snapshot from a badminton match view from a high angle. The court closer to the camera is the 'near court', and the opposite one is the 'far court'. All references to 'left' or 'right' in the questions describing the court or relative positions are based on the camera's perspective, corresponding to the left and right sides of the image frame. However, references to specific body parts (e.g., 'left wrist', 'right knee') follow the player's anatomical perspective (the player's own left/right). Players are identified by bounding boxes labeled with serial numbers. What is the distance between the pelvis of Player 1 and the pelvis of Player 3 in meters? Answer with a single float number representing meters. Example: 2.54",
+        "answer": "8.04",
+        "category": "distance_measurement_object_object"
+    },
+    {
+        "image_path": "static/images/views/tabletennis_match1_frame_011_0085.jpg",
+        "question": "This is a snapshot from a table tennis match view from a high angle. The table half closer to the camera is the 'near half', and the opposite one is the 'far half'. All references to 'left' or 'right' in the questions describing the court or relative positions are based on the camera's perspective, corresponding to the left and right sides of the image frame. However, references to specific body parts (e.g., 'left wrist', 'right knee') follow the player's anatomical perspective (the player's own left/right). Players are identified by bounding boxes labeled with serial numbers. How far apart are the left hand of Player 1 and the left foot of Player 1 in 3D space? Answer with a single float number representing meters. Example: 2.54",
+        "answer": "1.05",
+        "category": "distance_measurement_object_object"
+    },
+    {
+        "image_path": "static/images/views/tennis_match101_frame_000_0005.jpg",
+        "question": "This is a snapshot from a tennis match view from a high angle. The court closer to the camera is the 'near court', and the opposite one is the 'far court'. All references to 'left' or 'right' in the questions describing the court or relative positions are based on the camera's perspective, corresponding to the left and right sides of the image frame. However, references to specific body parts (e.g., 'left wrist', 'right knee') follow the player's anatomical perspective (the player's own left/right). Players are identified by bounding boxes labeled with serial numbers. If a line were drawn directly from the head of Player 1 to the left hand of Player 3, what would be its length in meters? Answer with a single float number representing meters. Example: 2.54",
+        "answer": "8.51",
+        "category": "distance_measurement_object_object"
+    },
+    {
+        "image_path": "static/images/views/badminton_match102_frame_000_0033.jpg",
+        "question": "This is a snapshot from a badminton match view from a high angle. The court closer to the camera is the 'near court', and the opposite one is the 'far court'. All references to 'left' or 'right' in the questions describing the court or relative positions are based on the camera's perspective, corresponding to the left and right sides of the image frame. However, references to specific body parts (e.g., 'left wrist', 'right knee') follow the player's anatomical perspective (the player's own left/right). Players are identified by bounding boxes labeled with serial numbers. How far apart are the camera and the head of Player 2 in 3D space? Answer with a single float number representing meters. Example: 2.54",
+        "answer": "30.78",
+        "category": "distance_measurement_camera_object"
+    },
+    {
+        "image_path": "static/images/views/tabletennis_match10_frame_007_0063.jpg",
+        "question": "This is a snapshot from a table tennis match view from a high angle. The table half closer to the camera is the 'near half', and the opposite one is the 'far half'. All references to 'left' or 'right' in the questions describing the court or relative positions are based on the camera's perspective, corresponding to the left and right sides of the image frame. However, references to specific body parts (e.g., 'left wrist', 'right knee') follow the player's anatomical perspective (the player's own left/right). Players are identified by bounding boxes labeled with serial numbers. Calculate the 3D Euclidean distance between the camera and the right foot of Player 2 in meters. Answer with a single float number representing meters. Example: 2.54",
+        "answer": "24.26",
+        "category": "distance_measurement_camera_object"
+    },
+    {
+        "image_path": "static/images/views/tennis_match101_frame_000_0112.jpg",
+        "question": "This is a snapshot from a tennis match view from a high angle. The court closer to the camera is the 'near court', and the opposite one is the 'far court'. All references to 'left' or 'right' in the questions describing the court or relative positions are based on the camera's perspective, corresponding to the left and right sides of the image frame. However, references to specific body parts (e.g., 'left wrist', 'right knee') follow the player's anatomical perspective (the player's own left/right). Players are identified by bounding boxes labeled with serial numbers. What is the distance between the camera and the right hand of Player 3 in meters? Answer with a single float number representing meters. Example: 2.54",
+        "answer": "13.11",
+        "category": "distance_measurement_camera_object"
+    },
+    {
+        "image_path": "static/images/views/badminton_match102_frame_000_0232.jpg",
+        "question": "This is a snapshot from a badminton match view from a high angle. The court closer to the camera is the 'near court', and the opposite one is the 'far court'. All references to 'left' or 'right' in the questions describing the court or relative positions are based on the camera's perspective, corresponding to the left and right sides of the image frame. However, references to specific body parts (e.g., 'left wrist', 'right knee') follow the player's anatomical perspective (the player's own left/right). Players are identified by bounding boxes labeled with serial numbers. What is the perpendicular distance from the pelvis of Player 2 to the left doubles sideline? Answer with a single float number representing meters. Example: 2.54",
+        "answer": "3.67",
+        "category": "distance_measurement_object_line"
+    },
+    {
+        "image_path": "static/images/views/tabletennis_match1_frame_000_0043.jpg",
+        "question": "This is a snapshot from a table tennis match view from a high angle. The table half closer to the camera is the 'near half', and the opposite one is the 'far half'. All references to 'left' or 'right' in the questions describing the court or relative positions are based on the camera's perspective, corresponding to the left and right sides of the image frame. However, references to specific body parts (e.g., 'left wrist', 'right knee') follow the player's anatomical perspective (the player's own left/right). Players are identified by bounding boxes labeled with serial numbers. What is the perpendicular distance from the pelvis of Player 2 to the center line? Answer with a single float number representing meters. Example: 2.54",
+        "answer": "1.06",
+        "category": "distance_measurement_object_line"
+    },
+    {
+        "image_path": "static/images/views/tennis_match184_frame_000_0188.jpg",
+        "question": "This is a snapshot from a tennis match view from a high angle. The court closer to the camera is the 'near court', and the opposite one is the 'far court'. All references to 'left' or 'right' in the questions describing the court or relative positions are based on the camera's perspective, corresponding to the left and right sides of the image frame. However, references to specific body parts (e.g., 'left wrist', 'right knee') follow the player's anatomical perspective (the player's own left/right). Players are identified by bounding boxes labeled with serial numbers. What is the perpendicular distance from the pelvis of Player 1 to the net? Answer with a single float number representing meters. Example: 2.54",
+        "answer": "16.45",
+        "category": "distance_measurement_object_line"
+    },
+    {
+        "image_path": "static/images/views/badminton_match104_frame_000_0210.jpg",
+        "question": "This is a snapshot from a badminton match view from a high angle. The court closer to the camera is the 'near court', and the opposite one is the 'far court'. All references to 'left' or 'right' in the questions describing the court or relative positions are based on the camera's perspective, corresponding to the left and right sides of the image frame. However, references to specific body parts (e.g., 'left wrist', 'right knee') follow the player's anatomical perspective (the player's own left/right). Players are identified by bounding boxes labeled with serial numbers. How high above the court surface is the right hand of Player 1 currently positioned? Answer with a single float number representing meters. Example: 2.54",
+        "answer": "0.98",
+        "category": "distance_measurement_height"
+    },
+    {
+        "image_path": "static/images/views/tabletennis_match10_frame_007_0121.jpg",
+        "question": "This is a snapshot from a table tennis match view from a high angle. The table half closer to the camera is the 'near half', and the opposite one is the 'far half'. All references to 'left' or 'right' in the questions describing the court or relative positions are based on the camera's perspective, corresponding to the left and right sides of the image frame. However, references to specific body parts (e.g., 'left wrist', 'right knee') follow the player's anatomical perspective (the player's own left/right). Players are identified by bounding boxes labeled with serial numbers. How high above the floor is the head of Player 1 currently positioned? Answer with a single float number representing meters. Example: 2.54",
+        "answer": "1.24",
+        "category": "distance_measurement_height"
+    },
+    {
+        "image_path": "static/images/views/tennis_match184_frame_000_0046.jpg",
+        "question": "This is a snapshot from a tennis match view from a high angle. The court closer to the camera is the 'near court', and the opposite one is the 'far court'. All references to 'left' or 'right' in the questions describing the court or relative positions are based on the camera's perspective, corresponding to the left and right sides of the image frame. However, references to specific body parts (e.g., 'left wrist', 'right knee') follow the player's anatomical perspective (the player's own left/right). Players are identified by bounding boxes labeled with serial numbers. How high above the court surface is the head of Player 2 currently positioned? Answer with a single float number representing meters. Example: 2.54",
+        "answer": "1.69",
+        "category": "distance_measurement_height"
+    },
+    {
+        "image_path": "static/images/views/badminton_match102_frame_000_0033.jpg",
+        "question": "This is a snapshot from a badminton match view from a high angle. The court closer to the camera is the 'near court', and the opposite one is the 'far court'. All references to 'left' or 'right' in the questions describing the court or relative positions are based on the camera's perspective, corresponding to the left and right sides of the image frame. However, references to specific body parts (e.g., 'left wrist', 'right knee') follow the player's anatomical perspective (the player's own left/right). Players are identified by bounding boxes labeled with serial numbers. Using a coordinate system where the origin (0,0,0) is the intersection of the far baseline and the left doubles sideline. The X-axis extends along the sideline towards the camera, the Y-axis extends along the far baseline to the right, and the Z-axis is vertical. Locate the head of Player 4 within the defined coordinate system and return its (x, y, z) values. Answer strictly in the format (x, y, z) with no units. Example: (1.2, 3.4, 0.0)",
+        "answer": "(2.68, 2.64, 1.18)",
+        "category": "localization"
+    },
+    {
+        "image_path": "static/images/views/tabletennis_match1_frame_000_0043.jpg",
+        "question": "This is a snapshot from a table tennis match view from a high angle. The table half closer to the camera is the 'near half', and the opposite one is the 'far half'. All references to 'left' or 'right' in the questions describing the court or relative positions are based on the camera's perspective, corresponding to the left and right sides of the image frame. However, references to specific body parts (e.g., 'left wrist', 'right knee') follow the player's anatomical perspective (the player's own left/right). Players are identified by bounding boxes labeled with serial numbers. Using a coordinate system where the origin (0,0,0) is the top-left corner of the table surface (intersection of far endline and left sideline). The X-axis extends along the sideline towards the camera, the Y-axis extends along the far endline to the right, and the Z-axis is vertical (0 is table surface). What is the 3D coordinate (x, y, z) of the right hand of Player 1 in meters? Answer strictly in the format (x, y, z) with no units. Example: (1.2, 3.4, 0.0)",
+        "answer": "(3.44, -0.72, 0.35)",
+        "category": "localization"
+    },
+    {
+        "image_path": "static/images/views/tennis_match172_frame_000_0104.jpg",
+        "question": "This is a snapshot from a tennis match view from a high angle. The court closer to the camera is the 'near court', and the opposite one is the 'far court'. All references to 'left' or 'right' in the questions describing the court or relative positions are based on the camera's perspective, corresponding to the left and right sides of the image frame. However, references to specific body parts (e.g., 'left wrist', 'right knee') follow the player's anatomical perspective (the player's own left/right). Players are identified by bounding boxes labeled with serial numbers. Using a coordinate system where the origin (0,0,0) is the intersection of the far baseline and the left doubles sideline. The X-axis extends along the sideline towards the camera, the Y-axis extends along the far baseline to the right, and the Z-axis is vertical. Locate the head of Player 2 within the defined coordinate system and return its (x, y, z) values. Answer strictly in the format (x, y, z) with no units. Example: (1.2, 3.4, 0.0)",
+        "answer": "(22.80, 9.33, 1.74)",
+        "category": "localization"
+    },
+    {
+        "image_path": "static/images/views/badminton_match104_frame_000_0245.jpg",
+        "question": "This is a snapshot from a badminton match view from a high angle. The court closer to the camera is the 'near court', and the opposite one is the 'far court'. All references to 'left' or 'right' in the questions describing the court or relative positions are based on the camera's perspective, corresponding to the left and right sides of the image frame. However, references to specific body parts (e.g., 'left wrist', 'right knee') follow the player's anatomical perspective (the player's own left/right). Players are identified by bounding boxes labeled with serial numbers. Is the shuttlecock visible in this image?\nChoices:\n(A)Yes\n(B)No\nSelect the best option. Output only the single uppercase letter corresponding to the choice. Example: B",
+        "answer": "B",
+        "category": "spatial_counting_ball"
+    },
+    {
+        "image_path": "static/images/views/tabletennis_match14_frame_011_0106.jpg",
+        "question": "This is a snapshot from a table tennis match view from a high angle. The table half closer to the camera is the 'near half', and the opposite one is the 'far half'. All references to 'left' or 'right' in the questions describing the court or relative positions are based on the camera's perspective, corresponding to the left and right sides of the image frame. However, references to specific body parts (e.g., 'left wrist', 'right knee') follow the player's anatomical perspective (the player's own left/right). Players are identified by bounding boxes labeled with serial numbers. Is the ping pong ball visible in this image?\nChoices:\n(A)Yes\n(B)No\nSelect the best option. Output only the single uppercase letter corresponding to the choice. Example: B",
+        "answer": "A",
+        "category": "spatial_counting_ball"
+    },
+    {
+        "image_path": "static/images/views/tennis_match110_frame_000_0078.jpg",
+        "question": "This is a snapshot from a tennis match view from a high angle. The court closer to the camera is the 'near court', and the opposite one is the 'far court'. All references to 'left' or 'right' in the questions describing the court or relative positions are based on the camera's perspective, corresponding to the left and right sides of the image frame. However, references to specific body parts (e.g., 'left wrist', 'right knee') follow the player's anatomical perspective (the player's own left/right). Players are identified by bounding boxes labeled with serial numbers. Can you see the tennis ball in the snapshot?\nChoices:\n(A)Yes\n(B)No\nSelect the best option. Output only the single uppercase letter corresponding to the choice. Example: B",
+        "answer": "A",
+        "category": "spatial_counting_ball"
+    },
+    {
+        "image_path": "static/images/views/badminton_match297_frame_000_0203.jpg",
+        "question": "This is a snapshot from a badminton match view from a high angle. The court closer to the camera is the 'near court', and the opposite one is the 'far court'. All references to 'left' or 'right' in the questions describing the court or relative positions are based on the camera's perspective, corresponding to the left and right sides of the image frame. However, references to specific body parts (e.g., 'left wrist', 'right knee') follow the player's anatomical perspective (the player's own left/right). Players are identified by bounding boxes labeled with serial numbers. Count the total number of athletes currently playing in the match. Answer with a single integer number. Example: 3",
+        "answer": "2",
+        "category": "spatial_counting_player"
+    },
+    {
+        "image_path": "static/images/views/tabletennis_match15_frame_001_0005.jpg",
+        "question": "This is a snapshot from a table tennis match view from a high angle. The table half closer to the camera is the 'near half', and the opposite one is the 'far half'. All references to 'left' or 'right' in the questions describing the court or relative positions are based on the camera's perspective, corresponding to the left and right sides of the image frame. However, references to specific body parts (e.g., 'left wrist', 'right knee') follow the player's anatomical perspective (the player's own left/right). Players are identified by bounding boxes labeled with serial numbers. How many players are visible in this image? Answer with a single integer number. Example: 3",
+        "answer": "2",
+        "category": "spatial_counting_player"
+    },
+    {
+        "image_path": "static/images/views/tennis_match124_frame_000_0358.jpg",
+        "question": "This is a snapshot from a tennis match view from a high angle. The court closer to the camera is the 'near court', and the opposite one is the 'far court'. All references to 'left' or 'right' in the questions describing the court or relative positions are based on the camera's perspective, corresponding to the left and right sides of the image frame. However, references to specific body parts (e.g., 'left wrist', 'right knee') follow the player's anatomical perspective (the player's own left/right). Players are identified by bounding boxes labeled with serial numbers. Is the tennis ball on the left or right side of the court from the camera's perspective?\nChoices:\n(A)Left side\n(B)Right side\n(C)On the center line\nSelect the best option. Output only the single uppercase letter corresponding to the choice. Example: B",
+        "answer": "A",
+        "category": "relational_reasoning_ball_zone"
+    },
+    {
+        "image_path": "static/images/views/badminton_match10_frame_000_0145.jpg",
+        "question": "This is a snapshot from a badminton match view from a high angle. The court closer to the camera is the 'near court', and the opposite one is the 'far court'. All references to 'left' or 'right' in the questions describing the court or relative positions are based on the camera's perspective, corresponding to the left and right sides of the image frame. However, references to specific body parts (e.g., 'left wrist', 'right knee') follow the player's anatomical perspective (the player's own left/right). Players are identified by bounding boxes labeled with serial numbers. Considering the pelvis position of each player, which player has the smallest perpendicular distance to the near doubles service line?\nChoices:\n(A)Player 1\n(B)Player 2\n(C)Player 3\n(D)Player 4\nSelect the best option. Output only the single uppercase letter corresponding to the choice. Example: B",
+        "answer": "B",
+        "category": "relational_reasoning_player_line"
+    },
+    {
+        "image_path": "static/images/views/tabletennis_match4_frame_002_0118.jpg",
+        "question": "This is a snapshot from a table tennis match view from a high angle. The table half closer to the camera is the 'near half', and the opposite one is the 'far half'. All references to 'left' or 'right' in the questions describing the court or relative positions are based on the camera's perspective, corresponding to the left and right sides of the image frame. However, references to specific body parts (e.g., 'left wrist', 'right knee') follow the player's anatomical perspective (the player's own left/right). Players are identified by bounding boxes labeled with serial numbers. Based on the pelvis positions, which player is nearest to the net in terms of perpendicular distance?\nChoices:\n(A)Player 1\n(B)Player 2\nSelect the best option. Output only the single uppercase letter corresponding to the choice. Example: B",
+        "answer": "A",
+        "category": "relational_reasoning_player_line"
+    },
+    {
+        "image_path": "static/images/views/tennis_match102_frame_000_0113.jpg",
+        "question": "This is a snapshot from a tennis match view from a high angle. The court closer to the camera is the 'near court', and the opposite one is the 'far court'. All references to 'left' or 'right' in the questions describing the court or relative positions are based on the camera's perspective, corresponding to the left and right sides of the image frame. However, references to specific body parts (e.g., 'left wrist', 'right knee') follow the player's anatomical perspective (the player's own left/right). Players are identified by bounding boxes labeled with serial numbers. Based on the pelvis positions, which player is nearest to the right singles sideline in terms of perpendicular distance?\nChoices:\n(A)Player 1\n(B)Player 2\nSelect the best option. Output only the single uppercase letter corresponding to the choice. Example: B",
+        "answer": "B",
+        "category": "relational_reasoning_player_line"
+    },
+    {
+        "image_path": "static/images/views/badminton_match106_frame_000_0107.jpg",
+        "question": "This is a snapshot from a badminton match view from a high angle. The court closer to the camera is the 'near court', and the opposite one is the 'far court'. All references to 'left' or 'right' in the questions describing the court or relative positions are based on the camera's perspective, corresponding to the left and right sides of the image frame. However, references to specific body parts (e.g., 'left wrist', 'right knee') follow the player's anatomical perspective (the player's own left/right). Players are identified by bounding boxes labeled with serial numbers. Measuring from the pelvis of each player, which of these players is closest to the camera?\nChoices:\n(A)Player 1\n(B)Player 2\nSelect the best option. Output only the single uppercase letter corresponding to the choice. Example: B",
+        "answer": "A",
+        "category": "relational_reasoning_camera_player"
+    },
+    {
+        "image_path": "static/images/views/tabletennis_match11_frame_008_0042.jpg",
+        "question": "This is a snapshot from a table tennis match view from a high angle. The table half closer to the camera is the 'near half', and the opposite one is the 'far half'. All references to 'left' or 'right' in the questions describing the court or relative positions are based on the camera's perspective, corresponding to the left and right sides of the image frame. However, references to specific body parts (e.g., 'left wrist', 'right knee') follow the player's anatomical perspective (the player's own left/right). Players are identified by bounding boxes labeled with serial numbers. From the camera's perspective, which side is Player 2 on relative to the camera?\nChoices:\n(A)Left\n(B)Right\n(C)Directly in front or behind\nSelect the best option. Output only the single uppercase letter corresponding to the choice. Example: B",
+        "answer": "B",
+        "category": "relational_reasoning_camera_player"
+    },
+    {
+        "image_path": "static/images/views/tennis_match101_frame_000_0030.jpg",
+        "question": "This is a snapshot from a tennis match view from a high angle. The court closer to the camera is the 'near court', and the opposite one is the 'far court'. All references to 'left' or 'right' in the questions describing the court or relative positions are based on the camera's perspective, corresponding to the left and right sides of the image frame. However, references to specific body parts (e.g., 'left wrist', 'right knee') follow the player's anatomical perspective (the player's own left/right). Players are identified by bounding boxes labeled with serial numbers. Is Player 4 positioned to the left or to the right of the camera from the camera's view?\nChoices:\n(A)Left\n(B)Right\n(C)Directly in front or behind\nSelect the best option. Output only the single uppercase letter corresponding to the choice. Example: B",
+        "answer": "B",
+        "category": "relational_reasoning_camera_player"
+    },
+    {
+        "image_path": "static/images/views/badminton_match106_frame_000_0119.jpg",
+        "question": "This is a snapshot from a badminton match view from a high angle. The court closer to the camera is the 'near court', and the opposite one is the 'far court'. All references to 'left' or 'right' in the questions describing the court or relative positions are based on the camera's perspective, corresponding to the left and right sides of the image frame. However, references to specific body parts (e.g., 'left wrist', 'right knee') follow the player's anatomical perspective (the player's own left/right). Players are identified by bounding boxes labeled with serial numbers. Where is Player 2 standing relative to the length of the court?\nChoices:\n(A)Front court\n(B)Mid court\n(C)Rear court\nSelect the best option. Output only the single uppercase letter corresponding to the choice. Example: B",
+        "answer": "C",
+        "category": "relational_reasoning_player_zone"
+    },
+    {
+        "image_path": "static/images/views/tennis_match184_frame_000_0112.jpg",
+        "question": "This is a snapshot from a tennis match view from a high angle. The court closer to the camera is the 'near court', and the opposite one is the 'far court'. All references to 'left' or 'right' in the questions describing the court or relative positions are based on the camera's perspective, corresponding to the left and right sides of the image frame. However, references to specific body parts (e.g., 'left wrist', 'right knee') follow the player's anatomical perspective (the player's own left/right). Players are identified by bounding boxes labeled with serial numbers. Classify the position of Player 1 into one of the three court zones: forecourt, midcourt, or backcourt.\nChoices:\n(A)The forecourt (between the net and the service line)\n(B)The midcourt (between the service line and the baseline)\n(C)The backcourt (outside the baseline)\nSelect the best option. Output only the single uppercase letter corresponding to the choice. Example: B",
+        "answer": "C",
+        "category": "relational_reasoning_player_zone"
+    },
+    {
+        "image_path": "static/images/views/badminton_match147_frame_000_0084.jpg",
+        "question": "This is a snapshot from a badminton match view from a high angle. The court closer to the camera is the 'near court', and the opposite one is the 'far court'. All references to 'left' or 'right' in the questions describing the court or relative positions are based on the camera's perspective, corresponding to the left and right sides of the image frame. However, references to specific body parts (e.g., 'left wrist', 'right knee') follow the player's anatomical perspective (the player's own left/right). Players are identified by bounding boxes labeled with serial numbers. Mapping the shuttlecock's position to the court zone, where is it?\nChoices:\n(A)Front court\n(B)Mid court\n(C)Rear court\n(D)Out of bounds\nSelect the best option. Output only the single uppercase letter corresponding to the choice. Example: B",
+        "answer": "B",
+        "category": "relational_reasoning_ball_zone"
+    },
+    {
+        "image_path": "static/images/views/tabletennis_match1_frame_011_0001.jpg",
+        "question": "This is a snapshot from a table tennis match view from a high angle. The table half closer to the camera is the 'near half', and the opposite one is the 'far half'. All references to 'left' or 'right' in the questions describing the court or relative positions are based on the camera's perspective, corresponding to the left and right sides of the image frame. However, references to specific body parts (e.g., 'left wrist', 'right knee') follow the player's anatomical perspective (the player's own left/right). Players are identified by bounding boxes labeled with serial numbers. Is the ping pong ball on the left or right side of the table center line?\nChoices:\n(A)Left side\n(B)Right side\n(C)On the center line\nSelect the best option. Output only the single uppercase letter corresponding to the choice. Example: B",
+        "answer": "B",
+        "category": "relational_reasoning_ball_zone"
+    },
+    {
+        "image_path": "static/images/views/tennis_match110_frame_000_0143.jpg",
+        "question": "This is a snapshot from a tennis match view from a high angle. The court closer to the camera is the 'near court', and the opposite one is the 'far court'. All references to 'left' or 'right' in the questions describing the court or relative positions are based on the camera's perspective, corresponding to the left and right sides of the image frame. However, references to specific body parts (e.g., 'left wrist', 'right knee') follow the player's anatomical perspective (the player's own left/right). Players are identified by bounding boxes labeled with serial numbers. Is the tennis ball currently positioned above or below the top edge of the net?\nChoices:\n(A)Above the net\n(B)Below the net\nSelect the best option. Output only the single uppercase letter corresponding to the choice. Example: B",
+        "answer": "B",
+        "category": "relational_reasoning_ball_zone"
+    },
+    {
+        "image_path": "static/images/views/badminton_match10_frame_000_0185.jpg",
+        "question": "This is a snapshot from a badminton match view from a high angle. The court closer to the camera is the 'near court', and the opposite one is the 'far court'. All references to 'left' or 'right' in the questions describing the court or relative positions are based on the camera's perspective, corresponding to the left and right sides of the image frame. However, references to specific body parts (e.g., 'left wrist', 'right knee') follow the player's anatomical perspective (the player's own left/right). Players are identified by bounding boxes labeled with serial numbers. Is Player 3 positioned to the left or to the right of the shuttlecock from the camera's view?\nChoices:\n(A)Left\n(B)Right\n(C)Directly in front or behind\nSelect the best option. Output only the single uppercase letter corresponding to the choice. Example: B",
+        "answer": "A",
+        "category": "relational_reasoning_ball_player"
+    },
+    {
+        "image_path": "static/images/views/tabletennis_match1_frame_000_0071.jpg",
+        "question": "This is a snapshot from a table tennis match view from a high angle. The table half closer to the camera is the 'near half', and the opposite one is the 'far half'. All references to 'left' or 'right' in the questions describing the court or relative positions are based on the camera's perspective, corresponding to the left and right sides of the image frame. However, references to specific body parts (e.g., 'left wrist', 'right knee') follow the player's anatomical perspective (the player's own left/right). Players are identified by bounding boxes labeled with serial numbers. Measuring from the pelvis of each player, which player has the smallest Euclidean distance to the ping pong ball?\nChoices:\n(A)Player 1\n(B)Player 2\nSelect the best option. Output only the single uppercase letter corresponding to the choice. Example: B",
+        "answer": "A",
+        "category": "relational_reasoning_ball_player"
+    },
+    {
+        "image_path": "static/images/views/tennis_match110_frame_000_0152.jpg",
+        "question": "This is a snapshot from a tennis match view from a high angle. The court closer to the camera is the 'near court', and the opposite one is the 'far court'. All references to 'left' or 'right' in the questions describing the court or relative positions are based on the camera's perspective, corresponding to the left and right sides of the image frame. However, references to specific body parts (e.g., 'left wrist', 'right knee') follow the player's anatomical perspective (the player's own left/right). Players are identified by bounding boxes labeled with serial numbers. Is Player 2 positioned to the left or to the right of the tennis ball from the camera's view?\nChoices:\n(A)Left\n(B)Right\n(C)Directly in front or behind\nSelect the best option. Output only the single uppercase letter corresponding to the choice. Example: B",
+        "answer": "A",
+        "category": "relational_reasoning_ball_player"
+    },
+    {
+        "image_path": "static/images/views/badminton_match102_frame_000_0081.jpg",
+        "question": "This is a snapshot from a badminton match view from a high angle. The court closer to the camera is the 'near court', and the opposite one is the 'far court'. All references to 'left' or 'right' in the questions describing the court or relative positions are based on the camera's perspective, corresponding to the left and right sides of the image frame. However, references to specific body parts (e.g., 'left wrist', 'right knee') follow the player's anatomical perspective (the player's own left/right). Players are identified by bounding boxes labeled with serial numbers. From the ego-centric view of Player 4, which side is Player 1 on?\nChoices:\n(A)Left side\n(B)Right side\nSelect the best option. Output only the single uppercase letter corresponding to the choice. Example: B",
+        "answer": "B",
+        "category": "relational_reasoning_player_player"
+    },
+    {
+        "image_path": "static/images/views/tabletennis_match1_frame_018_0037.jpg",
+        "question": "This is a snapshot from a table tennis match view from a high angle. The table half closer to the camera is the 'near half', and the opposite one is the 'far half'. All references to 'left' or 'right' in the questions describing the court or relative positions are based on the camera's perspective, corresponding to the left and right sides of the image frame. However, references to specific body parts (e.g., 'left wrist', 'right knee') follow the player's anatomical perspective (the player's own left/right). Players are identified by bounding boxes labeled with serial numbers. Is Player 2 positioned to the left or to the right of Player 1 from the camera's view?\nChoices:\n(A)Left\n(B)Right\n(C)Directly in front or behind\nSelect the best option. Output only the single uppercase letter corresponding to the choice. Example: B",
+        "answer": "B",
+        "category": "relational_reasoning_player_player"
+    },
+    {
+        "image_path": "static/images/views/tennis_match101_frame_000_0166.jpg",
+        "question": "This is a snapshot from a tennis match view from a high angle. The court closer to the camera is the 'near court', and the opposite one is the 'far court'. All references to 'left' or 'right' in the questions describing the court or relative positions are based on the camera's perspective, corresponding to the left and right sides of the image frame. However, references to specific body parts (e.g., 'left wrist', 'right knee') follow the player's anatomical perspective (the player's own left/right). Players are identified by bounding boxes labeled with serial numbers. Is Player 4 positioned to the left or to the right of Player 1 from the camera's view?\nChoices:\n(A)Left\n(B)Right\n(C)Directly in front or behind\nSelect the best option. Output only the single uppercase letter corresponding to the choice. Example: B",
+        "answer": "B",
+        "category": "relational_reasoning_player_player"
+    }
+]
