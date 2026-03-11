@@ -953,6 +953,7 @@ tr.lb-group-ours:hover td {
 .data-viewer-controls {
   display: inline-flex;
   align-items: center;
+  margin-left: auto;
   gap: 0.35rem;
   padding: 0.2rem 0.35rem;
   border-radius: 999px;
