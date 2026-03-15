@@ -64,4 +64,14 @@ If you find our work useful, please consider citing:
       primaryClass={cs.CV},
       url={https://arxiv.org/abs/2603.09896}, 
 }
+
+@misc{dong2025racketvision,
+      title={RacketVision: A Multiple Racket Sports Benchmark for Unified Ball and Racket Analysis}, 
+      author={Dong, Linfeng and Yang, Yuchen and Wu, Hao and Wang, Wei and Hou, Yuenan and Zhong, Zhihang and Sun, Xiao},
+      year={2025},
+      eprint={2511.17045},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2511.17045}, 
+}
 ```
